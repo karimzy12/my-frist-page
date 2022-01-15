@@ -1,0 +1,37 @@
+html{
+    background-color:#909;
+}
+.trfm {
+    display:block;
+    margin-bottom:25px;
+    margin-left:20px;
+    padding:10px;
+    box-sizing:border-box;
+    justify-content:space-between;
+}
+.a{
+    transform:rotate(25deg);
+    transform:scale(.5);
+    transform:translate(100px,50px)
+}
+.b{
+    transform:skewX(-20deg)
+}
+.c{
+    transform:scale(.5);
+}
+.bga{
+    transform:scale(.5);
+    transform-origin:100% 50%;
+}
+.nextpage ul{
+    display:flex;
+    list-style: none;
+    
+    
+}
+.nextpage a{
+    text-decoration: none;
+    margin-right: 3px;
+    
+}

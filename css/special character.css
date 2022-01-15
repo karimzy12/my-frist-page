@@ -1,0 +1,23 @@
+footer {
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    background-color:#32a852;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.nextpage ul{
+    display:flex;
+    list-style: none;
+    text-align: center;
+    
+    
+}
+.nextpage a{
+    text-decoration: none;
+    margin-right: 3px;
+    
+}
+
+

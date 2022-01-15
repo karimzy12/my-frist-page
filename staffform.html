@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= utf-8>
+        <title>stafform</title>
+        <link rel=stylesheet href="css/staffform.css">
+    </head>
+    <body>
+        <header>
+            <h2>Staff  Bio</h2>
+        </header>
+        <form>
+            <div class="form">
+                <div class="formrow">
+                <label for="fristname">First name:</label>
+                <input type="text" id="firstname" name="fristname" placeholder="firstname" >
+                </div>
+                <div class="formrow">
+                <label for="lastname">Last name:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="lastname">
+                </div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="email" >
+                <label for="tel">phone:</label>
+                <input type="tel" id="tel" name="telephone" placeholder="number">
+            </div>
+            
+
+            <fieldset>
+                <legend>Gender</legend>
+                <input id="male" type="radio" name="gender" value="gender1"><label for="male">male</label>
+                <input id="female" type="radio" name="gender" value="gender2"><label for="female">female</label>
+            </fieldset>     
+
+            
+            <fieldset>
+                <legend>Marital status</legend>
+                <input id="married" type="radio" name="marital status" value="married"><label for="married">married</label>
+                <input id="single" type="radio" name="marital status" value="single"><label for="single">single</label>
+                <input id="divorcee" type="radio" name="marital status"  value="divorcee" ><label for="divorcee">divorcee</label>
+            </fieldset> 
+
+            <label for="address"> Address:</label>
+                    <textarea id="address" name="address" placeholder="write address"></textarea>
+             <!---select option--->
+            <label for="what you can cook most"> which meal are you best at?</label>
+            <select id="what you can cook most" name="select">
+            <option value="jollof rice" >jollof rice</option>
+            <option value="bean">bean</option>
+            <option value="fried rice">fried rice</option>
+            <option value="semo and oghono"> semo &amp; oghono</option>
+            <option value="okro soup">okro soup</option>
+            <option value="danbu">danbu</option>
+            <option value="waina">waina</option>
+            <option value="akara">akara</option>
+            <option value="amala and ewedu">amala &amp; ewedu</option>
+            <option value="vegetable soup">vegetable soup</option>
+            <option value="couscous">couscous</option>
+            <option value="all of the above">all of the above</option>
+            </select>
+
+            <label for="attachresume"> attach resume:</label>
+            <input type="file" id=attachresume>
+
+            <input type="submit" value="submit">
+            
+
+        </form>
+    </body>
+</html>
